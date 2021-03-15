@@ -1,0 +1,29 @@
+public class NumbersInfo {
+    public static void main(String[] args){
+        int sum=0;
+        int max=Integer.parseInt(args[0]);
+        int min=Integer.parseInt(args[0]);
+        double average;
+        for(int i=0;i< args.length;i++){
+            sum+=Integer.parseInt(args[i]);
+        }
+        System.out.println(sum);
+        for(int i=0;i< args.length;i++) {
+            if (Integer.parseInt(args[i]) > max) {
+                max = Integer.parseInt(args[i]);
+            }
+        }
+        System.out.println(max);
+            for(int i=0;i< args.length;i++){
+                if(Integer.parseInt(args[i])<min){
+                    min=Integer.parseInt(args[i]);
+                }
+        }
+            System.out.println(min);
+        for(int i=0;i< args.length;i++){
+            sum+=Integer.parseInt(args[i]);
+            average=sum/2;
+        }
+
+    }
+}
