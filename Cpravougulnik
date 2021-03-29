@@ -7,9 +7,7 @@ printf("Enter a:");
 scanf("%f", &a);
 printf("Enter b:");
 scanf("%f", &b);
-printf("Enter c:");
-scanf("%f", &c);
-if(a <=0 || b <=0 || c<=0)
+if(a <=0 || b <=0 )
 {
 printf("Invalid pravougulnik\n");
 return 1;
