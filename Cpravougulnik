@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <iostream>
+int main()
+{
+float a,b,P,S;
+printf("Enter a:");
+scanf("%f", &a);
+printf("Enter b:");
+scanf("%f", &b);
+printf("Enter c:");
+scanf("%f", &c);
+if(a <=0 || b <=0 || c<=0)
+{
+printf("Invalid pravougulnik\n");
+return 1;
+}
+P=(a+b)*2;
+S=a*b;
+printf("P = %.2f\n",P);
+printf("S = %.2f\n",S);
+return 0;
+}
