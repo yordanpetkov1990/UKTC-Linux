@@ -1,6 +1,6 @@
 a= float(input('Enter a'))
 b=float(input('Enter b'))
-if a<=0 or b<=0 or c<=0 :
+if a<=0 or b<=0:
 print ('Invalid pravougulnik')
 else:
 P=(a+b)*2
