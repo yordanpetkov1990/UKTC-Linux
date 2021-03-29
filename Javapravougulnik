@@ -1,0 +1,20 @@
+class Main{
+public static void main(String[] args){
+Scanner scan=new Scanner(System.in);
+System.out.println("Enter a :");
+double a=scan.nextDouble();
+System.out.println("Enter b :");
+double b=scan.nextDouble();
+if(a<=0 || b<=0 || c<=0){
+System.out.println("Invalid pravougulnik");
+return;
+}
+ double P=(a+b)*2;
+ double S=a*b;
+ System.out.println("P = %.2f\n",P);
+  System.out.println("S = %.2f\n",S);
+
+       }
+
+
+           }
